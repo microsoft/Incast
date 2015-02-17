@@ -1,9 +1,9 @@
-Incast: A benchmark which simulates the "incast" network traffic pattern
+Incast: A benchmark for the "incast" network traffic pattern
 ==========
 
-Incast.EXE is a client-server network benchmark that simulates the “incast” traffic pattern which is common to map-reduce style cloud apps.
+INCAST.EXE is a client-server network benchmark that simulates the “incast” traffic pattern which is common to map-reduce style cloud apps.
 
-Incast.EXE makes it easy to create this traffic pattern in order to evaluate the performance of switches, NICs, and other networking gear.
+Incast makes it easy to create this traffic pattern in order to evaluate the performance of switches, NICs, and other networking gear.
 
 Incast can be run in two modes, client or server.  There is only one server, but arbitrarily many clients.  A server sends a “fan-out” request to many clients, which respond simultaneously with a “fan-in” response.  The response is the incast event.
 
@@ -18,7 +18,7 @@ Usage
     
     Test options are specified only on the server side:
     
-         INCAST.EXE <options>
+        INCAST.EXE <options>
     
     Available <options> and their default values:
         
